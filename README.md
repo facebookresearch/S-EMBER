@@ -194,4 +194,6 @@ This repository builds on the open-source [`lmms-eval`](https://github.com/Evolv
 
 ## License
 
-The code in this repository is released under the terms in [`LICENSE`](LICENSE), including the upstream lmms-eval components. The S-EMBER dataset is distributed separately on Hugging Face under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) and the gated access terms listed on the [dataset page](https://huggingface.co/datasets/xidwang/S-EMBER).
+The majority of S-EMBER is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), however portions of the project are available under separate license terms: lmms-eval is subject to the licenses listed at [https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=License-1-ov-file#readme](https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=License-1-ov-file#readme); lm-evaluation-harness is licensed under the MIT license [https://github.com/EleutherAI/lm-evaluation-harness/blob/main/LICENSE.md](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/LICENSE.md).
+
+The S-EMBER dataset is distributed on Hugging Face under the license and gated access terms listed on the [dataset page](https://huggingface.co/datasets/xidwang/S-EMBER).
