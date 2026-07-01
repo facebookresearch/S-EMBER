@@ -2,7 +2,7 @@
 
 # S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval
 
-[Xiaodong Wang](https://scholar.google.com/citations?user=rMpcFYgAAAAJ&hl=en)<sup>1</sup>, [Xuanyi Zhao](https://scholar.google.com/citations?user=yxN5j-0AAAAJ&hl=en)<sup>1</sup>, [Pedro Rodriguez](https://www.pedro.ai/)<sup>1</sup>, [Devendra Singh Sachan](https://www.dsachan.com/)<sup>1</sup>, [Barlas Oguz](https://scholar.google.com/citations?user=iPmTQZMAAAAJ&hl=en)<sup>1</sup>, [Seungwhan Moon](https://shanemoon.com/)<sup>2</sup>, [Shang-Wen Daniel Li](https://swdanielli.github.io/)<sup>1</sup>, [Gargi Ghosh](https://scholar.google.com/citations?user=k5akwCcAAAAJ&hl=en&oi=ao)<sup>1</sup>, [Xin Luna Dong](https://scholar.google.com/citations?user=uGsKvHoAAAAJ&hl=en)<sup>2</sup>, [Wen-Tau Scott Yih](https://scottyih.org/)<sup>1</sup>
+[Xiaodong Wang](https://scholar.google.com/citations?user=rMpcFYgAAAAJ&hl=en)<sup>1</sup>, [Xuanyi Zhao](https://scholar.google.com/citations?user=yxN5j-0AAAAJ&hl=en)<sup>1</sup>, [Pedro Rodriguez](https://www.pedro.ai/)<sup>1</sup>, [Devendra Singh Sachan](https://www.dsachan.com/)<sup>1</sup>, [Barlas Oguz](https://scholar.google.com/citations?user=iPmTQZMAAAAJ&hl=en)<sup>1</sup>, [Seungwhan Moon](https://shanemoon.com/)<sup>2</sup>, [Shang-Wen Li](https://swdanielli.github.io/)<sup>1</sup>, [Gargi Ghosh](https://scholar.google.com/citations?user=k5akwCcAAAAJ&hl=en&oi=ao)<sup>1</sup>, [Xin Dong](https://scholar.google.com/citations?user=uGsKvHoAAAAJ&hl=en)<sup>2</sup>, [Wen-Tau Yih](https://scottyih.org/)<sup>1</sup>
 
 <sup>1</sup> FAIR, Meta &nbsp;&nbsp; <sup>2</sup> Reality Labs, Meta
 
