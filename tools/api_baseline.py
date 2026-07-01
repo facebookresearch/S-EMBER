@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 """Unified closed-source API baselines for S-EMBER (Gemini / GPT-4o / o3).
 
 Evaluation modes against closed-source backends:

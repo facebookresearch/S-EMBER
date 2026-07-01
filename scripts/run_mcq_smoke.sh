@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # One-command MCQ smoke-test entry point.
 #
 # Prerequisites — download from https://huggingface.co/datasets/xidwang/S-EMBER:

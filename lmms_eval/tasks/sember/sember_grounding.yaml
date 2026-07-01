@@ -1,3 +1,4 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # S-EMBER memory grounding task — answer generation + temporal interval.
 #
 # The dataset jsonl must be placed at ``data/sember_grounding.jsonl``

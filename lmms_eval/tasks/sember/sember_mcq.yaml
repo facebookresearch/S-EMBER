@@ -1,3 +1,4 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # S-EMBER memory MCQ task — Gemini-generated multiple-choice variant.
 #
 # The dataset jsonl must be placed at ``data/sember_mcq.jsonl``

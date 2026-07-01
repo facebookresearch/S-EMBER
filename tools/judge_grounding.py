@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 """Optional Gemini judge for the S-EMBER grounding task.
 
 The grounding runner (`scripts/grounding/run_*.sh`) reports temporal IoU

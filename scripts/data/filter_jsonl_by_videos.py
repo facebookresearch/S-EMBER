@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 """Filter sember_mcq.jsonl to only the questions whose video is on disk.
 
 Smoke-test flow:

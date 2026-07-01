@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # Run S-EMBER MCQ evaluation for a Qwen3-VL model (4B / 8B / 32B).
 #
 # Frame sampling defaults to the "uniform_768f_fixres" recipe used in the

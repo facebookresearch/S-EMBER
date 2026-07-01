@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # Move downloaded S-EMBER files into the canonical local data layout.
 #
 # Usage:

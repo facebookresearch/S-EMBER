@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # Run S-EMBER grounding evaluation for an InternVL3.5 model (4B / 8B / 38B).
 #
 # Grounding asks the model to produce both a free-text answer AND a

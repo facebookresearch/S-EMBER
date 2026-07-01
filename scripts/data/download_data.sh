@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # Print step-by-step instructions for fetching the public S-EMBER dataset
 # from Hugging Face.
 #

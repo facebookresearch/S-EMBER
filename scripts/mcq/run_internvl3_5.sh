@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # Run S-EMBER MCQ evaluation for an InternVL3.5 model (4B / 8B / 38B).
 #
 # Usage:

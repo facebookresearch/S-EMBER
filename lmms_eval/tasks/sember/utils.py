@@ -1,3 +1,4 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 """Task helpers for the S-EMBER MCQ benchmark.
 
 Environment variables
