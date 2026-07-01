@@ -2,7 +2,7 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # One-command MCQ smoke-test entry point.
 #
-# Prerequisites — download from https://huggingface.co/datasets/xidwang/S-EMBER:
+# Prerequisites — download from https://huggingface.co/datasets/facebook/S-EMBER:
 #   * data/sember_mcq.jsonl
 #   * data/videos/<video_id>.mp4         (one or more — pick any that interest you)
 #
@@ -42,10 +42,10 @@ To fix:
   1. Install the Hugging Face CLI:
        pip install -U huggingface_hub
   2. Download:
-       huggingface-cli download xidwang/S-EMBER sember_mcq.jsonl --repo-type dataset --local-dir data
-       huggingface-cli download xidwang/S-EMBER --repo-type dataset --include 'videos/*.mp4' --local-dir data
+       huggingface-cli download facebook/S-EMBER sember_mcq.jsonl --repo-type dataset --local-dir data
+       huggingface-cli download facebook/S-EMBER --repo-type dataset --include 'videos/*.mp4' --local-dir data
      Or manually download a few mp4 files from:
-       https://huggingface.co/datasets/xidwang/S-EMBER/tree/main/videos
+       https://huggingface.co/datasets/facebook/S-EMBER/tree/main/videos
      and place them in ${VIDEO_DIR}/.
   3. Re-run:
        NUM_PROCESSES=1 bash scripts/run_mcq_smoke.sh ${MODEL} ${SIZE}

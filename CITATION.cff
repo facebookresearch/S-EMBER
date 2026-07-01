@@ -14,7 +14,7 @@ authors:
 license: CC-BY-NC-4.0
 version: "1.0.0"
 date-released: "2026-07-01"
-url: "https://huggingface.co/datasets/xidwang/S-EMBER"
+url: "https://huggingface.co/datasets/facebook/S-EMBER"
 repository-code: "https://github.com/xiaodongw1122/S-EMBER"
 keywords:
   - episodic memory

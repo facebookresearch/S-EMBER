@@ -4,13 +4,13 @@ This directory is the expected local location for the S-EMBER benchmark data.
 The public dataset is hosted on Hugging Face:
 
 ```text
-https://huggingface.co/datasets/xidwang/S-EMBER/tree/main
+https://huggingface.co/datasets/facebook/S-EMBER/tree/main
 ```
 
 The Hugging Face dataset layout is:
 
 ```text
-xidwang/S-EMBER/
+facebook/S-EMBER/
 ├── sember_mcq.jsonl
 ├── sember_grounding.jsonl
 └── videos/
@@ -37,16 +37,16 @@ pip install -U huggingface_hub
 Download the finalized JSONL files:
 
 ```bash
-huggingface-cli download xidwang/S-EMBER sember_mcq.jsonl \
+huggingface-cli download facebook/S-EMBER sember_mcq.jsonl \
     --repo-type dataset --local-dir data
-huggingface-cli download xidwang/S-EMBER sember_grounding.jsonl \
+huggingface-cli download facebook/S-EMBER sember_grounding.jsonl \
     --repo-type dataset --local-dir data
 ```
 
 Download all videos:
 
 ```bash
-huggingface-cli download xidwang/S-EMBER --repo-type dataset \
+huggingface-cli download facebook/S-EMBER --repo-type dataset \
     --include 'videos/*.mp4' --local-dir data
 ```
 
@@ -62,7 +62,7 @@ data/
 ```
 
 For a small smoke test, you can instead download only a few videos from
-`https://huggingface.co/datasets/xidwang/S-EMBER/tree/main/videos` and
+`https://huggingface.co/datasets/facebook/S-EMBER/tree/main/videos` and
 place them under `data/videos/` with their original filenames.
 
 If you downloaded files into another directory, the convenience helper can

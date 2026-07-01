@@ -8,7 +8,7 @@
 
 <a href="https://github.com/xiaodongw1122/S-EMBER"><img src="https://img.shields.io/badge/Home-Page-blue" alt="Home Page"></a>
 <a href=""><img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper Arxiv"></a>
-<a href="https://huggingface.co/datasets/xidwang/S-EMBER"><img src="https://img.shields.io/badge/Data-HuggingFace-orange" alt="Data HuggingFace"></a>
+<a href="https://huggingface.co/datasets/facebook/S-EMBER"><img src="https://img.shields.io/badge/Data-HuggingFace-orange" alt="Data HuggingFace"></a>
 
 <img src="assets/sember_annotation_overview.png" width="900" alt="Overview of the S-EMBER benchmark annotation">
 
@@ -79,15 +79,15 @@ pip install -U huggingface_hub
 
 ```bash
 # Download metadata.
-huggingface-cli download xidwang/S-EMBER sember_mcq.jsonl \
+huggingface-cli download facebook/S-EMBER sember_mcq.jsonl \
     --repo-type dataset --local-dir data
-huggingface-cli download xidwang/S-EMBER sember_grounding.jsonl \
+huggingface-cli download facebook/S-EMBER sember_grounding.jsonl \
     --repo-type dataset --local-dir data
 
 # Download all videos. For a smoke test, you may instead download only a few
-# mp4s from https://huggingface.co/datasets/xidwang/S-EMBER/tree/main/videos
+# mp4s from https://huggingface.co/datasets/facebook/S-EMBER/tree/main/videos
 # and place them under data/videos/.
-huggingface-cli download xidwang/S-EMBER --repo-type dataset \
+huggingface-cli download facebook/S-EMBER --repo-type dataset \
     --include 'videos/*.mp4' --local-dir data
 
 # MCQ evaluation. Set NUM_PROCESSES to the number of GPUs to use.
@@ -196,4 +196,4 @@ This repository builds on the open-source [`lmms-eval`](https://github.com/Evolv
 
 The majority of S-EMBER is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), however portions of the project are available under separate license terms: lmms-eval is subject to the licenses listed at [https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=License-1-ov-file#readme](https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=License-1-ov-file#readme); lm-evaluation-harness is licensed under the MIT license [https://github.com/EleutherAI/lm-evaluation-harness/blob/main/LICENSE.md](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/LICENSE.md).
 
-The S-EMBER dataset is distributed on Hugging Face under the license and gated access terms listed on the [dataset page](https://huggingface.co/datasets/xidwang/S-EMBER).
+The S-EMBER dataset is distributed on Hugging Face under the license and gated access terms listed on the [dataset page](https://huggingface.co/datasets/facebook/S-EMBER).

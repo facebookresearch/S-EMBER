@@ -22,7 +22,7 @@ S-EMBER dataset — Hugging Face download instructions
 ================================================================
 
 Dataset repo:
-  https://huggingface.co/datasets/xidwang/S-EMBER/tree/main
+  https://huggingface.co/datasets/facebook/S-EMBER/tree/main
 
 Expected local layout:
   ${DATA_DIR}/sember_mcq.jsonl
@@ -35,21 +35,21 @@ Step 1.  Install the Hugging Face CLI:
 
 Step 2.  Download the finalized JSONL files:
 
-             huggingface-cli download xidwang/S-EMBER sember_mcq.jsonl \
+             huggingface-cli download facebook/S-EMBER sember_mcq.jsonl \
                --repo-type dataset --local-dir ${DATA_DIR}
-             huggingface-cli download xidwang/S-EMBER sember_grounding.jsonl \
+             huggingface-cli download facebook/S-EMBER sember_grounding.jsonl \
                --repo-type dataset --local-dir ${DATA_DIR}
 
 Step 3.  Download videos.
 
          Full dataset:
 
-             huggingface-cli download xidwang/S-EMBER --repo-type dataset \
+             huggingface-cli download facebook/S-EMBER --repo-type dataset \
                --include 'videos/*.mp4' --local-dir ${DATA_DIR}
 
          Small smoke test:
            Download a few mp4 files from
-           https://huggingface.co/datasets/xidwang/S-EMBER/tree/main/videos
+           https://huggingface.co/datasets/facebook/S-EMBER/tree/main/videos
            and place them in ${VIDEO_DIR}/ with their original filenames.
 
 Step 4.  Run an MCQ smoke test:
