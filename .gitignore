@@ -1,0 +1,33 @@
+# Local data — do not commit benchmark assets
+data/*.jsonl
+data/*.json
+data/videos/*
+!data/videos/.gitkeep
+
+# Release-asset staging directory
+release_assets/
+
+# Outputs from eval runs
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Environment
+.env
+.venv/
+
+# SLURM / NFS junk
+slurm-*.out
+slurm-*.err
+.nfs*
