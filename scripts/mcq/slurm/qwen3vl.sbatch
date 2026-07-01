@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) Meta Platforms, Inc. and affiliates.
 # SLURM submission wrapper for S-EMBER Qwen3-VL MCQ runs.
 #
 # Usage:
