@@ -6,8 +6,8 @@
 
 <sup>1</sup> FAIR, Meta &nbsp;&nbsp; <sup>2</sup> Reality Labs, Meta
 
-<a href="https://github.com/xiaodongw1122/S-EMBER"><img src="https://img.shields.io/badge/Home-Page-blue" alt="Home Page"></a>
-<a href=""><img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper Arxiv"></a>
+<a href="https://github.com/facebookresearch/S-EMBER"><img src="https://img.shields.io/badge/Home-Page-blue" alt="Home Page"></a>
+<a href="https://arxiv.org/abs/2607.02689"><img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper Arxiv"></a>
 <a href="https://huggingface.co/datasets/facebook/S-EMBER"><img src="https://img.shields.io/badge/Data-HuggingFace-orange" alt="Data HuggingFace"></a>
 
 <img src="assets/sember_annotation_overview.png" width="900" alt="Overview of the S-EMBER benchmark annotation">
@@ -187,6 +187,20 @@ AZURE_OPENAI_ENDPOINT=https://<your-host> AZURE_OPENAI_API_KEY=... \
 ```
 
 Install the API SDKs with `pip install google-genai openai decord pillow`. Outputs are written to `output/api/` by default.
+
+## Citation
+
+If you use S-EMBER, please cite:
+
+```bibtex
+@article{wang2026sember,
+  title = {S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval},
+  author = {Wang, Xiaodong and Zhao, Xuanyi and Rodriguez, Pedro and Sachan, Devendra Singh and Oguz, Barlas and Moon, Seungwhan and Li, Shang-Wen and Ghosh, Gargi and Dong, Xin and Yih, Wen-Tau},
+  journal = {arXiv preprint arXiv:2607.02689},
+  year = {2026},
+  url = {https://arxiv.org/abs/2607.02689}
+}
+```
 
 ## Acknowledgments
 
