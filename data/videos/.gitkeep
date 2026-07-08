@@ -1,0 +1,3 @@
+# Placeholder so git tracks this directory on a fresh clone.
+# Reviewer-downloaded mp4 files go in this directory; they are gitignored
+# (see the project root .gitignore).

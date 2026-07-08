@@ -1,0 +1,55 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+cff-version: 1.2.0
+message: "If you use S-EMBER, please cite the S-EMBER paper below."
+title: "S-EMBER Benchmark Code and Data"
+type: dataset
+authors:
+  - family-names: "Wang"
+    given-names: "Xiaodong"
+license: CC-BY-NC-4.0
+version: "1.0.0"
+date-released: "2026-07-01"
+url: "https://huggingface.co/datasets/facebook/S-EMBER"
+repository-code: "https://github.com/facebookresearch/S-EMBER"
+keywords:
+  - episodic memory
+  - egocentric video
+  - video question answering
+  - temporal grounding
+  - multimodal evaluation
+  - benchmark
+preferred-citation:
+  type: article
+  title: "S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval"
+  authors:
+    - family-names: "Wang"
+      given-names: "Xiaodong"
+    - family-names: "Zhao"
+      given-names: "Xuanyi"
+    - family-names: "Rodriguez"
+      given-names: "Pedro"
+    - family-names: "Sachan"
+      given-names: "Devendra Singh"
+    - family-names: "Oguz"
+      given-names: "Barlas"
+    - family-names: "Moon"
+      given-names: "Seungwhan"
+    - family-names: "Li"
+      given-names: "Shang-Wen Daniel"
+    - family-names: "Ghosh"
+      given-names: "Gargi"
+    - family-names: "Dong"
+      given-names: "Xin Luna"
+    - family-names: "Yih"
+      given-names: "Wen-Tau Scott"
+  year: 2026
+  url: "https://arxiv.org/abs/2607.02689"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.02689"
+      description: "arXiv preprint"
